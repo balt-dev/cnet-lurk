@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "celestenetlurk",
+  "version": "${version}",
+  "name": "CelesteNetLurk",
+  "description": "Lets you lurk in CelesteNet chat in Minecraft!",
+  "authors": [
+    "baltdev"
+  ],
+  "contact": {
+    "repo": "https://github.com/baltdev/CelesteNetLurk"
+  },
+  "license": "MIT",
+  "icon": "assets/celestenetlurk/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "mba.sno.celestenetlurk.CelesteNetLurk"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=1.19"
+  }
+}
