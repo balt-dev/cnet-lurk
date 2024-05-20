@@ -1,3 +1,8 @@
 {
-  "chat.celeste": "[%s] %s: %s"
+  "chat.celeste": "%s%s: %s",
+  "chat.celeste.timestamp": "'['HH':'mm':'ss']' ",
+  "key.celeste.toggle": "Connect/Disconnect",
+  "category.celeste": "CelesteNet",
+  "chat.celeste.reconnect": "Connecting...",
+  "chat.celeste.disconnect": "Disconnected."
 }

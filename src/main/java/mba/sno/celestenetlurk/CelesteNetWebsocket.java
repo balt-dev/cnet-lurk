@@ -102,10 +102,12 @@ public class CelesteNetWebsocket extends WebSocketClient {
     @Override
     public void onError(Exception e) {
         CelesteNetLurk.LOGGER.error("Encountered error in CelesteNet connection", e);
+        this.onMessage.onError(e);
     }
 
     public interface MessageInterface {
         void onMessage(TextColor color, String name, String text, LocalDateTime timestamp);
+        void onError(Exception e);
     }
 }
 

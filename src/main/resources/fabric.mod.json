@@ -3,7 +3,7 @@
   "id": "celestenetlurk",
   "version": "${version}",
   "name": "CelesteNetLurk",
-  "description": "Lets you lurk in CelesteNet chat in Minecraft!",
+  "description": "Lets you lurk in CelesteNet chat from within Minecraft.",
   "authors": [
     "baltdev"
   ],
@@ -20,6 +20,7 @@
   },
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": ">=1.19"
+    "minecraft": ">=1.19",
+    "fabric": "*"
   }
 }
